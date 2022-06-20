@@ -1,4 +1,4 @@
-set completeopt=menu,menuone,noselect
+set completeopt=menu,menuone
 
 lua <<EOF
   -- Setup nvim-cmp.

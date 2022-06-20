@@ -18,3 +18,14 @@ nmap <Leader>q :q<CR>
 
 " ToggleTerm
 noremap <Leader>t :ToggleTerm direction=float<CR>
+
+" Move lines
+nnoremap <A-k> :m --1<CR>
+nnoremap <A-j> :m +1<CR>
+
+" Telescope
+nnoremap <Leader>ff <cmd>Telescope find_files<CR>
+nnoremap <Leader>fg <cmd>Telescope live_grep<CR>
+nnoremap <Leader>fb <cmd>Telescope buffers<CR>
+nnoremap <Leader>fh <cmd>Telescope help_tags<CR>
+
