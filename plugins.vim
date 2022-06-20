@@ -1,8 +1,10 @@
 call plug#begin('~/.config/nvim/plugged/')
 
 " Themes
+Plug 'sainnhe/gruvbox-material'
 Plug 'morhetz/gruvbox'
 Plug 'sainnhe/sonokai'
+Plug 'ayu-theme/ayu-vim'
 
 " BufferLine
 Plug 'akinsho/bufferline.nvim'
@@ -29,16 +31,26 @@ Plug 'hrsh7th/vim-vsnip'
 
 " IDE
 Plug 'easymotion/vim-easymotion'
-Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 "Plug 'mhinz/vim-signify'
 Plug 'yggdroot/indentline'
-Plug 'scrooloose/nerdcommenter'
-Plug 'akinsho/toggleterm.nvim'
-Plug 'folke/trouble.nvim'
 Plug 'jose-elias-alvarez/null-ls.nvim'
+Plug 'folke/trouble.nvim'
+
+" Tree
+Plug 'ryanoasis/vim-devicons'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
+
+" Neo Tree
+Plug 'MunifTanjim/nui.nvim'
+Plug 's1n7ax/nvim-window-picker'
+Plug 'nvim-neo-tree/neo-tree.nvim'
+
+" Terminal
+Plug 'akinsho/toggleterm.nvim'
 
 " typing
 Plug 'jiangmiao/auto-pairs'
@@ -48,6 +60,7 @@ Plug 'tpope/vim-surround' " Envuelve en parentesis -> Texto Seleccionado -> Ctrl
 " git
 Plug 'itchyny/vim-gitbranch'
 Plug 'lewis6991/gitsigns.nvim'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Telescope
 Plug 'nvim-lua/plenary.nvim'

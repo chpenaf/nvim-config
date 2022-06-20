@@ -1,9 +1,21 @@
 " Theme Config
 set background=dark
 
-let g:sonokai_style = 'andromeda'
+" Sonokai
+let g:sonokai_style = 'atlantis'
 let g:sonokai_better_performance = 1
 let g:sonokai_transparent_background = 1
+let g:sonokai_diagnostic_text_highlight = 1
+let g:sonokai_diagnostic_line_highlight = 1
+let g:sonokai_disable_terminal_colors = 1
+
+" Ayu
+let ayucolor='dark'
+
+" Gruvbox 
+let g:gruvbox_material_background = 'medium'
+let g:gruvbox_material_better_performance = 1
+let g:gruvbox_material_transparent_background = 1
 
 colorscheme sonokai
 
@@ -38,3 +50,10 @@ let g:lightline.enable = {
 highlight Normal ctermbg=NONE
 set laststatus=2
 set noshowmode
+
+" IndentLine 
+"let g:indentLine_char = ''
+"let g:indentLine_first_char = ''
+"let g:indentLine_showFirstIndentLevel = 1
+"let g:indentLine_setColors = 0
+

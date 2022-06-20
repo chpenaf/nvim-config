@@ -9,9 +9,14 @@ nnoremap <Leader>< 10<C-w><
 nmap <Leader>s <Plug>(easymotion-s2)
 
 " NerdTree
-nmap <F2> :NERDTreeFind<CR>
-nmap <F3> :NERDTreeClose<CR>
-let NERDTreeQuitOnOpen=1
+"nmap <F2> :NERDTreeFind<CR>
+"nmap <F3> :NERDTreeClose<CR>
+"let NERDTreeQuitOnOpen=1
+
+" NeoTree
+nmap <F2> :Neotree reveal<CR>
+nmap <F3> :Neotree close<CR>
+let g:neo_tree_remove_legacy_commands = 1
 
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
