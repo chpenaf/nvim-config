@@ -15,6 +15,7 @@ set showmatch "Resalta parentesis
 set sw=2
 set relativenumber
 set termguicolors
+set noswapfile
 
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugin-config/setup.vim
